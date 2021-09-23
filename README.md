@@ -25,11 +25,11 @@ Minimal solution: code to install and configure:
 It is fine to leave some steps manual, however, you'll get the maximum score if the process is as automated as possible.
 Please include short notes in README.md of your Git repository with instructions on how to use your code and a description of manual steps if any.
 
-Bonus task:
-Automate virtual machine and/or container creation and orchestration
-- Can use the same or some other automation framework
-- Add alerting to your dashboard
-- Alerts can be configured to sent to slack / email or any other notification channel of your choice
+Bonus tasks:
+- Automate virtual machine and/or container creation and orchestration
+  - Can use the same or some other automation framework
+- Add alerting to your Grafana dashboard
+  - Alerts can be configured to sent to slack / email or any other notification channel of your choice
 - Describe backup approach for all components (free text)
 - Use standard HTTP ports and set up a TLS for all services
-- Self-signed certificates are okay
+  - Self-signed certificates are okay
