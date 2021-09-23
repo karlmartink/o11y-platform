@@ -13,14 +13,14 @@ All the servers can reside in the same local network.
 End solution should have a working dashboard in Grafana with node metrics from Grafana and/or Prometheus machine or even from your host machine. https://github.com/prometheus/node_exporter
 
 Minimal solution: code to install and configure:
-Grafana server
-- Grafana frontend accessible
-- Working Prometheus datasource
-- Dashboard with CPU/Memory/Filesystem metrics
-Prometheus server
--Prometheus server running
--Prometheus frontend accessible
--Prometheus scraping metrics from at least one node exporter (can also be your host machine)
+- Grafana server
+  - Grafana frontend accessible
+  - Working Prometheus datasource
+  - Dashboard with CPU/Memory/Filesystem metrics
+- Prometheus server
+  - Prometheus server running
+  - Prometheus frontend accessible
+  - Prometheus scraping metrics from at least one node exporter (can also be your host machine)
 
 It is fine to leave some steps manual, however, you'll get the maximum score if the process is as automated as possible.
 Please include short notes in README.md of your Git repository with instructions on how to use your code and a description of manual steps if any.
@@ -28,8 +28,8 @@ Please include short notes in README.md of your Git repository with instructions
 Bonus task:
 Automate virtual machine and/or container creation and orchestration
 - Can use the same or some other automation framework
-Add alerting to your dashboard
+- Add alerting to your dashboard
 - Alerts can be configured to sent to slack / email or any other notification channel of your choice
-Describe backup approach for all components (free text)
-Use standard HTTP ports and set up a TLS for all services
+- Describe backup approach for all components (free text)
+- Use standard HTTP ports and set up a TLS for all services
 - Self-signed certificates are okay
